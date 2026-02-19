@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { supabase } from "@/supabase";
+import { supabase } from "@/lib/supabase";
 import { joinOnlinePresence } from "@/lib/onlinePresence";
 
 export default function OnlineTracker() {
