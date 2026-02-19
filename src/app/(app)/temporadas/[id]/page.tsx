@@ -89,7 +89,7 @@ export default function TemporadaDetalhe() {
               <div className="text-slate-200/65 text-sm">R$ {Number(m.valor_por_jogador).toFixed(0)} / jogador</div>
             </div>
             <div className="flex items-center gap-2">
-              <Link href={`mix/${m.id}`} className="rounded-xl px-4 py-2 border border-neonCyan/25 hover:bg-white/5">
+              <Link href={`/mix/${m.id}`} className="rounded-xl px-4 py-2 border border-neonCyan/25 hover:bg-white/5">
                 Abrir  ›
               </Link>
             </div>
