@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "@/supabase";
 import { getOnlineList } from "@/lib/onlinePresence";
 
 type Mix = { id: string; dt_mix: string; status: string };
