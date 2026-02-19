@@ -1,6 +1,6 @@
 "use client";
 
-import { supabase } from "@/supabase";
+import { supabase } from "@/lib/supabase";
 
 export function joinOnlinePresence(userId: string, nick: string) {
   const channel = supabase.channel("online", {
